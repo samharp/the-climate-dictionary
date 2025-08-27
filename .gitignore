@@ -1,1 +1,4 @@
 prepros.config
+eslint.config.js
+package.json
+package-lock.json

@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const partActionLink = document.createElement("button");
         partActionLink.setAttribute("data-url", "https://theclimatedictionary.com/" + "#" + part.id);
         partActionLink.setAttribute("title", "Share this definition");
-        partActionLink.innerHTML = `<span>Copy link</span> <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 128 128" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M57 64a20 20 90 0 0 29 6l18-20a20 20 90 0 0-31-26L55 44" id="l"/><use href="#l"/><use href="#l" transform="rotate(180 64 64)"/></svg>`;
+        partActionLink.innerHTML = `<span>Copy link</span><svg aria-hidden="true" class="icon"><use href="#link"></use></svg>`;
         partActionLink.classList.add("copy-url");
         partColumnTwo.appendChild(partActionLink);
 
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           partSource.setAttribute("href", part.sourceLink);
           partSource.setAttribute("target", "_blank");
           partSource.setAttribute("rel", "noopener noreferrer");
-          partSource.innerHTML = `${part.source}<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 128 128" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none" stroke-width="5"><path d="m103 80V25H48m55 0-79 79"/></svg>`;
+          partSource.innerHTML = `${part.source}<svg aria-hidden="true" class="icon"><use href="#arrow-up-right"></use></svg>`;
           partSource.classList.add("has-icon");
           partColumnTwo.appendChild(partSource);
         }

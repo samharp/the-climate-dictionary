@@ -8,24 +8,36 @@
   <meta name="title" content="The Climate Dictionary"/>
   <meta name="description" content="A simple and easy-to-use online climate dictionary. Designed to create a much lower digital carbon footprint whilst providing an accessible source of information."/>
   <meta name="author" content="Nick Lewis - nicklewis.dev" />
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://theclimatedictionary.com/"/>
   <meta property="og:title" content="The Climate Dictionary"/>
   <meta property="og:description" content="A simple and easy-to-use online climate dictionary. Designed to create a much lower digital carbon footprint whilst providing an accessible source of information."/>
   <meta property="og:image" content="https://theclimatedictionary.com/images/theclimatedictionary.jpg"/>
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:site_name" content="The Climate Dictionary">
+  <link rel="canonical" href="https://theclimatedictionary.com/">
   <meta name="keywords" content="climate,climate change,climate dictionary,the climate dictionary,UNDP climate dictionary" />
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="preload" as="font" href="fonts/safiro-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.min.css?v=1.0.8" />
+  <link rel="stylesheet" href="style.min.css?v=1.1.0" />
 </head>
 <body>
   <header>
     <div>
       <strong>The Climate Dictionary</strong>
       <button class="menu-toggle-theme" id='theme-selector' onclick="toggleTheme()" title="Toggle website colour theme" aria-label="Toggle the colour of the website theme between light and dark">
-        <svg aria-hidden="true" role="presentation" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 270 128" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-width="4"><circle cx="64" cy="64" r="28"/><path d="M39 89l-6 6m6-56-6-6M95 95l-6-6m6-56-6 6M30 64H21m86 0H98M64 98v9m0-86v9m71-10v88M239 88A41 40 35 11194 24a44 41 35 0045 64Z"/></svg>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+          <symbol id="arrow-up-right" viewBox="0 0 128 128"><path d="m103 80V25H48m55 0-79 79"/></symbol>
+          <symbol id="arrow-up" viewBox="0 0 128 128"><path d="m64 113V15M25 54l39-39 39 39"/></symbol>
+          <symbol id="link" viewBox="0 0 128 128"><path d="M57 64a20 20 90 0 0 29 6l18-20a20 20 90 0 0-31-26L55 44" id="id7"/><use href="#id7"/><use href="#id7" transform="rotate(180 64 64)"/></symbol>
+          <symbol id="light-dark" viewBox="0 0 270 128"><circle cx="64" cy="64" r="28"/><path d="M39 89l-6 6m6-56-6-6M95 95l-6-6m6-56-6 6M30 64H21m86 0H98M64 98v9m0-86v9m71-10v88M239 88A41 40 35 11194 24a44 41 35 0045 64Z"/></symbol>
+          <use href="#light-dark"></use>
+        </svg>
       </button>
     </div>
   </header>
@@ -87,7 +99,7 @@
       <div>
         <p>Change website<br>colour scheme:</p>
         <button class="menu-toggle-theme" id='theme-selector' onclick="toggleTheme()" title="Toggle website colour theme" aria-label="Toggle the colour of the website theme between light and dark">
-          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 270 128" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-width="4"><circle cx="64" cy="64" r="28"/><path d="M39 89l-6 6m6-56-6-6M95 95l-6-6m6-56-6 6M30 64H21m86 0H98M64 98v9m0-86v9m71-10v88M239 88A41 40 35 11194 24a44 41 35 0045 64Z"/></svg>
+          <svg aria-hidden="true" class="icon"><use href="#light-dark"></use></svg>
         </button>
       </div>
     </div>
@@ -95,9 +107,9 @@
       <p>Definitions gathered from the <a href="https://www.undp.org/" target="_blank" rel="noopener noreferrer">UNDP</a> and <a href="https://www.climatepartner.com/" target="_blank" rel="noopener noreferrer">Climate Partner</a>.</p>
     </div>
     <div>
-      <p><span>Designed and built by <a href="https://nicklewis.dev/" target="_blank" rel="noopener">Nick Lewis</a>.</span><a href="#top" id="to-top" class="has-icon" title="Go to the top of the website">To top <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none" stroke-width="5"><path d="m64 113V15M25 54l39-39 39 39"/></svg></a></p>
+      <p><span>Designed and built by <a href="https://nicklewis.dev/" target="_blank" rel="noopener">Nick Lewis</a>.</span><a href="#top" id="to-top" class="has-icon" title="Go to the top of the website">To top <svg aria-hidden="true" class="icon"><use href="#arrow-up"></use></svg></a></p>
     </div>
   </footer>
-  <script src="main.min.js?v=1.0.5"></script>
+  <script src="main.min.js?v=1.0.6"></script>
 </body>
 </html>

@@ -66,7 +66,7 @@ html {
 	background-color: var(--bg-primary);
 	color: var(--color-primary);
 	scroll-behavior: smooth;
-	scroll-padding-top: 2rem;
+	scroll-padding-top: calc(var(--nav-height) + 2rem);
 }
 
 body {
@@ -222,6 +222,19 @@ button.menu-toggle-theme {
 	border: 1px solid var(--border-colour);
 	border-radius: var(--border-radius);
 	cursor: pointer;
+	svg {
+		width: 46px;
+		height: 22px;
+	}
+}
+
+svg.icon {
+	display: block;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 4px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 button.copy-url {
@@ -264,13 +277,6 @@ button.copy-url {
 
 html[data-theme~='dark'] button.menu-toggle-theme {
 	color: var(--white);
-}
-
-button.menu-toggle-theme > svg {
-	display: block;
-	width: auto;
-	height: 22px;
-	stroke: currentColor;
 }
 
 nav {

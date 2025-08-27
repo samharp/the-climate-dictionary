@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="js" id="theme-container" data-theme="light">
+<head>
+  <title>The Climate Dictionary</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="title" content="The Climate Dictionary"/>
+  <meta name="description" content="A simple and easy-to-use online climate dictionary. Designed to create a much lower digital carbon footprint whilst providing an accessible source of information."/>
+  <meta name="author" content="Nick Lewis - nicklewis.dev" />
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://theclimatedictionary.com/"/>
+  <meta property="og:title" content="The Climate Dictionary"/>
+  <meta property="og:description" content="A simple and easy-to-use online climate dictionary. Designed to create a much lower digital carbon footprint whilst providing an accessible source of information."/>
+  <meta property="og:image" content="https://theclimatedictionary.com/images/theclimatedictionary.jpg"/>
+  <meta name="keywords" content="climate,climate change,climate dictionary,the climate dictionary,UNDP climate dictionary" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="preload" as="font" href="fonts/safiro-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.min.css?v=1.0.8" />
+</head>
+<body>
+  <header>
+    <div>
+      <strong>The Climate Dictionary</strong>
+      <button class="menu-toggle-theme" id='theme-selector' onclick="toggleTheme()" title="Toggle website colour theme" aria-label="Toggle the colour of the website theme between light and dark">
+        <svg aria-hidden="true" role="presentation" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 270 128" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-width="4"><circle cx="64" cy="64" r="28"/><path d="M39 89l-6 6m6-56-6-6M95 95l-6-6m6-56-6 6M30 64H21m86 0H98M64 98v9m0-86v9m71-10v88M239 88A41 40 35 11194 24a44 41 35 0045 64Z"/></svg>
+      </button>
+    </div>
+  </header>
+  <main id="top">
+    <section id="intro">
+      <h1>The<br>Climate<br>Dictionary</h1>
+      <div>
+        <p>A simple and easy-to-use online climate dictionary. Designed to create a much lower digital carbon footprint whilst providing an accessible source of information.</p>
+        <a href="#dictionary" class="btn">View the dictionary</a>
+      </div>
+    </section>
+    <section id="foreward">
+      <h2>Foreward</h2>
+      <div>
+        <p>Climate change is without doubt the defining global issue of our time. It is already affecting every country around the globe. But many of the terms and concepts relating to climate change can be complicated and inaccessible.</p>
+        <p>There is a need for accurate, easy-to-understand information about climate change and related topics.</p>
+        <p>The following dictionary is a collection of definitions for frequently used climate terms, written simply.</p>
+        <p>If you have ever questioned 'What does Adaptation mean?', 'What is the difference between Carbon removal and Carbon capture?' or similar, this dictionary will help you to understand.</p>
+      </div>
+    </section>
+    <section id="dictionary">
+      <h2>The Dictionary</h2>
+      <div>
+        <aside class="alphabet">
+          <nav>
+            <a href="#a">A</a>
+            <a href="#b">B</a>
+            <a href="#c">C</a>
+            <a href="#d">D</a>
+            <a href="#e">E</a>
+            <a href="#f">F</a>
+            <a href="#g">G</a>
+            <a href="#i">I</a>
+            <a href="#j">J</a>
+            <a href="#l">L</a>
+            <a href="#m">M</a>
+            <a href="#n">N</a>
+            <a href="#p">P</a>
+            <a href="#r">R</a>
+            <a href="#s">S</a>
+            <a href="#t">T</a>
+            <a href="#u">U</a>
+            <a href="#w">W</a>
+          </nav>
+        </aside>
+        <article id="sections"></article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p class="h1">The<br>Climate<br>Dictionary</p>
+    </div>
+    <div></div>
+    <div>
+      <p>This website has been designed and built to lower its digital carbon emissions. It is hosted with 100% renewable energy.</p>
+    </div>
+    <div>
+      <div>
+        <p>Change website<br>colour scheme:</p>
+        <button class="menu-toggle-theme" id='theme-selector' onclick="toggleTheme()" title="Toggle website colour theme" aria-label="Toggle the colour of the website theme between light and dark">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 270 128" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-width="4"><circle cx="64" cy="64" r="28"/><path d="M39 89l-6 6m6-56-6-6M95 95l-6-6m6-56-6 6M30 64H21m86 0H98M64 98v9m0-86v9m71-10v88M239 88A41 40 35 11194 24a44 41 35 0045 64Z"/></svg>
+        </button>
+      </div>
+    </div>
+    <div>
+      <p>Definitions gathered from the <a href="https://www.undp.org/" target="_blank" rel="noopener noreferrer">UNDP</a> and <a href="https://www.climatepartner.com/" target="_blank" rel="noopener noreferrer">Climate Partner</a>.</p>
+    </div>
+    <div>
+      <p><span>Designed and built by <a href="https://nicklewis.dev/" target="_blank" rel="noopener">Nick Lewis</a>.</span><a href="#top" id="to-top" class="has-icon" title="Go to the top of the website">To top <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" fill="none" stroke-width="5"><path d="m64 113V15M25 54l39-39 39 39"/></svg></a></p>
+    </div>
+  </footer>
+  <script src="main.min.js?v=1.0.5"></script>
+</body>
+</html>

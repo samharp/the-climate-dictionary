@@ -5,5 +5,5 @@ Created using straightforward static HTML, minified CSS and JavaScript, and a JS
 
 ## Pull requests
 Please add a pull request for:
-• A new term or definition that you feel should be listed. You can find these in data/dictionary.json
-• If you see a mistake, misspelling or error
+- A new term or definition that you feel should be listed. You can find these in data/dictionary.json
+- If you see a mistake, misspelling or error

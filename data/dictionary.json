@@ -33,6 +33,20 @@
       "title": "B",
       "parts": [
         {
+          "title": "B Corp",
+          "id": "b-corp",
+          "phonetic": "",
+          "source": "B Corporation",
+          "sourceLink": "https://www.bcorporation.net/en-us/certification/",
+          "content": [
+            "B Corp is a designation that a business is meeting high standards of verified performance, accountability, and transparency on factors from employee benefits and charitable giving to supply chain practices and input materials.",
+            "In order to achieve certification, a company must:",
+            "– Demonstrate high social and environmental performance by achieving a B Impact Assessment score of 80 or above and passing our risk review. Multinational corporations must also meet baseline requirement standards.",
+            "– Make a legal commitment by changing their corporate governance structure to be accountable to all stakeholders, not just shareholders, and achieve benefit corporation status if available in their jurisdiction.",
+            "– Exhibit transparency by allowing information about their performance measured against B Lab’s standards to be publicly available on their B Corp profile on B Lab’s website.  "
+          ]
+        },
+        {
           "title": "Blue economy",
           "id": "blue-economy",
           "phonetic": "noun /ˈbluː ɪˈkɒnəmi/",
@@ -52,12 +66,25 @@
         {
           "title": "Carbon credits",
           "id": "carbon-credits",
-          "phonetic": "noun",
+          "phonetic": "noun /ˈkɑːbən ˈkrɛdɪts/",
           "source": "UNDP",
           "sourceLink": "https://www.undp.org/",
           "content": [
             "Carbon credits are tradable, digital certificates, each one representing the reduction, avoidance, or removal of one tonne of carbon dioxide equivalent (CO2e).",
             "Companies, governments, and other organisations buy carbon credits to support global climate action beyond their own value chain. In doing so, they finance climate projects such as renewable energy or forest protection projects that avoid or remove emissions from the atmosphere."
+          ]
+        },
+        {
+          "title": "Carbon dioxide equivalent (CO2e)",
+          "id": "carbon-dioxide-equivalent",
+          "phonetic": "abbreviation",
+          "source": "",
+          "sourceLink": "",
+          "content": [
+            "Carbon dioxide equivalent (CO2e) is a standard unit for measuring and comparing the total global warming potential of all greenhouse gases (GHGs).",
+            "It converts the emissions of various greenhouse gases, like methane and nitrous oxide, into the equivalent amount of carbon dioxide (CO2) that would cause the same warming effect over a specified time, typically 100 years.",
+            "This allows for a single, collective figure to be used for total emissions, simplifying their measurement and tracking for climate goals.",
+            "Carbon dioxide equivalent is also commonly abbreviated to CO2-e or CO2-eq."
           ]
         },
         {
@@ -70,6 +97,19 @@
             "A carbon footprint is a measure of the greenhouse gas emissions released into the atmosphere by a particular person, organization, product, or activity. A bigger carbon footprint means more emissions of carbon dioxide and methane, and therefore a bigger contribution to the climate crisis.",
             "Measuring a person’s or an organization’s carbon footprint entails looking at both the direct emissions resulting from the burning of fossil fuels for energy production, heating, and land and air travel, and indirect emissions resulting from the production and disposal of all food, manufactured goods, and services they consume.",
             "Carbon footprints can be reduced by shifting to low-carbon energy sources like wind and solar, improving energy efficiency, strengthening industry policies and regulations, changing purchasing and travel habits, and reducing meat consumption and food waste."
+          ]
+        },
+        {
+          "title": "Carbon intensity",
+          "id": "carbon-intensity",
+          "phonetic": "noun /ˈkɑːbən ɪnˈtɛn(t)sᵻti/",
+          "source": "",
+          "sourceLink": "",
+          "content": [
+            "Carbon intensity is a measure of how clean energy is. It refers to the number of grams of carbon dioxide (CO2) that it takes to make one unit of electricity a kilowatt per hour (kW/hour).",
+            "When electricity is generated using coal power stations, the carbon intensity value is high as CO2 is produced as part of the power generation process.",
+            "Renewable forms of generation such as hydro or solar produce almost no emissions, so their carbon intensity is very low.",
+            "The lower the carbon intensity, the greener the electricity."
           ]
         },
         {
@@ -271,6 +311,30 @@
             "Ecocide is the devastation or destruction of nature to the detriment of life, the ‘unlawful or wanton acts committed with knowledge that there is a substantial likelihood of causing severe and either widespread or long-term damage to the environment’.",
             "Several countries have passed national ecocide laws to deter actions that cause serious environmental destruction, establishing personal criminal liability for such acts. This could mean that individuals, including corporate leaders and heads of state, could be prosecuted and face imprisonment for causing major environmental harm.",
             "Ecocide undermines countries and societies that depend on the services provided by healthy ecosystems, such as clean air and water, pollination and food, for their survival. For Indigenous Peoples and local communities, the destruction of nature caused by resource extraction and climate change can also threaten to eradicate their cultures and ways of life. Ecocide also severely compromises Earth’s ability to support future generations and their chances of enjoying basic universal human rights."
+          ]
+        },
+        {
+          "title": "EcoVadis",
+          "id": "ecovadis",
+          "phonetic": "",
+          "source": "EcoVadis",
+          "sourceLink": "https://www.undp.org/",
+          "content": [
+            "EcoVadis is a leading global platform that assesses business sustainability and ESG (Environmental, Social, and Governance) performance across their entire supply chain.",
+            "A businees is evaluated on criteria such as environment, labour and human rights, ethics, and sustainable procurement.",
+            "Companies receive a rating and a scorecard based on evidence provided, which helps them identify areas for improvement, meet sustainability goals and communicate their performance to stakeholders."
+          ]
+        },
+        {
+          "title": "Energy Savings Opportunity Scheme (ESOS)",
+          "id": "esos",
+          "phonetic": "abbreviation",
+          "source": "GOV.UK",
+          "sourceLink": "https://www.gov.uk/guidance/energy-savings-opportunity-scheme-esos#aboutthe-energy-savings-opportunity-scheme-esos",
+          "content": [
+            "ESOS is a mandatory energy assessment scheme for organisations in the UK that meet the qualification criteria. The Environment Agency is the UK scheme administrator.",
+            "Organisations that qualify for ESOS must carry out ESOS assessments every 4 years. These assessments are audits of the energy used by their buildings, industrial processes and transport.",
+            "The ESOS audit is designed to identify tailored and cost-effective measures to allow participating businesses to save energy and achieve carbon and cost savings."
           ]
         },
         {
@@ -754,6 +818,17 @@
     {
       "title": "T",
       "parts": [
+        {
+          "title": "Technology Carbon Standard",
+          "id": "technology-carbon-standard",
+          "phonetic": "",
+          "source": "Technology Carbon Standard",
+          "sourceLink": "https://www.techcarbonstandard.org/",
+          "content": [
+            "The Technology Carbon Standard is a method, structure and data format for analysing an organisation's Technology Carbon Footprint.",
+            "This is developed as an approach to classifying an organisation's technology estate to enable consistent analysis and benchmarking of its technology carbon footprint. This standard takes inspiration from the globally recognised GHG Protocol and its emissions classification into Scopes 1, 2, and 3."
+          ]
+        },
         {
           "title": "The Paris Agreement",
           "id": "the-paris-agreement",

@@ -234,6 +234,17 @@
           ]
         },
         {
+          "title": "Compound hazards",
+          "id": "compound-hazards",
+          "phonetic": "/ˈkɒmpaʊnd ˈhazəds/",
+          "source": "",
+          "sourceLink": "",
+          "content": [
+            "Where multiple extreme events of either different or similar types occur simultaneously and/or in succession. Compound hazards often have a more severe outcome than when such events occur in isolation.",
+            "For example, flooding and landslides happening simultaneously, or a heatwave that is followed by a period of drought. When compounded, the impact of the events on both people and the environment are amplified."
+          ]
+        },
+        {
           "title": "COP",
           "id": "cop",
           "phonetic": "abbreviation",
@@ -878,6 +889,18 @@
           "content": [
             "The United Nations Framework Convention on Climate Change (UNFCCC) is an international environmental treaty adopted in 1992 to combat dangerous human interference with the climate system. It entered into force in 1994 and enjoys near universal membership, having been signed by 198 parties. It is the parent treaty of both the Paris Agreement and the Kyoto Protocol.",
             "The UNFCCC secretariat is the United Nations entity tasked with supporting the global response to the threat of climate change. The secretariat facilitates intergovernmental climate change negotiations by organizing between two and four negotiating sessions each year, the largest and most important of which is the Conference of the Parties (COP). It also provides technical expertise and assists in the analysis and review of climate change information and maintains the registry of Nationally Determined Contributions (NDC)."
+          ]
+        },
+        {
+          "title": "Urban greening",
+          "id": "urban-greening",
+          "phonetic": "",
+          "source": "",
+          "sourceLink": "",
+          "content": [
+            "Urban greening is the process of introducing and increasing green spaces, vegetation and natural features within urban areas such as towns and cities.",
+            "This is achieved through the creation of \"green infrastructure\" which includes parks, trees, green roofs and living walls.",
+            "Together these offer multiple benefits such as cooler temperatures, improved air quality, flood mitigation, as well as habitats for animal life."
           ]
         }
       ]

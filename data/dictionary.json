@@ -325,6 +325,17 @@
       "title": "E",
       "parts": [
         {
+          "title": "Eco-Anxiety",
+          "id": "eco-anxiety",
+          "phonetic": "noun /ekōˌaNGˈzīədē",
+          "source": "UNICEF",
+          "sourceLink": "https://www.unicef.org/blog/what-is-eco-anxiety",
+          "content": [
+            "Eco-anxiety, or climate anxiety, is extreme worry about current and future harm to the environment caused by human activity and climate change.",
+            "Because the climate crisis can feel too big to think about all-in-one go, individuals can feel overwhelmed and over-anxious or shut down emotionally. A global survey of 10,000 people between the ages of 16 and 25 found that nearly 60% of young people are 'very' or 'extremely worried' about environmental problems, and 50-67% said climate change makes them feel sad, scared, anxious, angry, powerless, helpless and guilty.de",
+          ]
+        },
+        {
           "title": "Ecocide",
           "id": "ecocide",
           "phonetic": "noun /ˈɛkəˌsaɪd/",
